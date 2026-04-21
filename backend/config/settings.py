@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'core',
 ]
 
+
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
@@ -70,8 +71,7 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'config.wsgi.application'
 
-AUTH_USER_MODEL = 'core.User'
-
+AUTH_USER_MODEL = 'core.UserModel'
 # Database
 # https://docs.djangoproject.com/en/6.0/ref/settings/#databases
 

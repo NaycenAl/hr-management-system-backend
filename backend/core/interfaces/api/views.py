@@ -1,8 +1,8 @@
 from rest_framework.views import APIView
 from rest_framework.response import Response
 
-from backend.core.application.use_cases.get_employees import GetEmployees
-from backend.core.infrastructure.persistence.repositories import DjangoEmployeeRepository
+from core.application.use_cases.get_employees import GetEmployees
+from core.infrastructure.persistence.repositories import DjangoEmployeeRepository
 
 
 class EmployeeListView(APIView):

@@ -1,3 +1,4 @@
-from django.db import models
+# core/models.py
+from core.infrastructure.persistence.models import UserModel, EmployeeModel
 
-# Create your models here.
+__all__ = ['UserModel', 'EmployeeModel']

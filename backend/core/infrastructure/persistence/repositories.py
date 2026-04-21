@@ -1,5 +1,5 @@
 
-from .django_models import EmployeeModel
+from .models import EmployeeModel
 from ...domain.entities.employee import Employee
 from ...domain.ports.employee_repository import EmployeeRepository
 

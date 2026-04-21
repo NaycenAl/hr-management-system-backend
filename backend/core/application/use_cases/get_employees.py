@@ -1,4 +1,4 @@
-from backend.core.domain.ports.employee_repository import EmployeeRepository
+from core.domain.ports.employee_repository import EmployeeRepository
 
 
 class GetEmployees:
